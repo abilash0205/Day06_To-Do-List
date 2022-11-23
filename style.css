@@ -1,0 +1,47 @@
+*{
+    overflow-y: hidden;
+}
+
+#bg{
+    background-image: url('https://cdn.pixabay.com/photo/2018/04/28/22/03/tree-3358468_960_720.jpg');
+    background-repeat: no-repeat;
+    height: 1920px;
+}
+
+.box{
+    margin: 110px auto;
+    width: 420px;
+}
+
+.contents{
+    padding: 20px;
+}
+
+.tasks{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tsk{
+    width: 365px;
+    height: 30px;
+    background-color: #373a3b;
+    margin: 5px;
+    line-height: 30px;
+    color: white;
+    border-radius: 10px;
+}
+input[type="checkbox"]{
+    cursor: pointer;
+}
+.com{
+    width: 120px;
+    height: 30px;
+    background-color: #4a5052;
+    margin: 5px;
+    padding: 5px;
+    line-height: 30px;
+    color: white;
+    border-radius: 25px;
+}
